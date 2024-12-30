@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Content-Language" content="fr">
+    <meta name="Description" content="Bienvenue au Trou du Hobbit la où votre voyage débute">
+    <meta name="Keywords" content="hobbit hôtel seigneur des anneaux">
+    <meta name="Subject" content="Hôtel ">
+    <meta name="Copyright" content="2024 FL LT">
+    <meta name="Author" content="FL LT">
+    <title>Dream Hotel - LT/FL</title>
+    <link href="../css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b8451f0e84.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="fixedHeader">
+        <img class="logo" src="../img/logo-banner.webp" alt="Banner" />
+
+        <ul class="menu">
+          <li><a class="menuItem" href="../../../index.html">Accueil</a></li>
+          <li><a class="menuItem" href="room.html">Chambres</a></li>
+          <li><a class="menuItem" href="restauration.html">Restauration</a></li>
+          <li><a class="menuItem" href="service.html">Services</a></li>
+          <li><a class="menuItem" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <button class="hamburger">
+        <i class="fas fa-bars menuIcon"></i>
+        <i class="fa-solid fa-xmark closeIcon" id="closeIcon"></i>
+      </button>
+
+      <img class="logo-header"  src="../img/logo-full.webp" 
+      srcset="../img/logo-full-small.webp 480w, ../img/logo-full-medium.webp 768w, ../img/logo-full.webp 1280w" 
+      sizes="(max-width: 768px) 100vw, (min-width: 769px) 50vw" 
+      alt="logo-header"/>
+      <h1 class="title">Restauration</h1>
+      <p class="title-quote">“Si plus d'entre nous accordaient de l'importance à la nourriture, à la joie et aux chansons au-dessus de l'or accumulé, ce serait un monde plus joyeux. ”</p>
+    </header>
+
+    <main>
+
+      <div class="linear-B-A"></div>
+
+      <div class="DivA intro">
+        <img class="pic-restau" src="../img/restau-banner.webp" alt="Logo" />
+        <div class="restau-horaires">
+          <div class="restau-title">Horaires :</div>
+          <p class="horaire-explain">Lundi : 9h-22h
+             Mardi : 9h-22h
+          Mercredi : 9h-22h
+             Jeudi : 9h-22h
+          Vendredi : 9h-1h
+            Samedi : 9h-1h
+          Dimanche : 9h-22h</p>
+        </div>
+      </div>
+
+      <div class="linear-A-B"></div>
+
+      <div class="DivB intro">
+        <div class="restau-infos">
+          <div class="restau-title">Chez les Hobbits : On mange bien !</div>
+          <p class="restau-explain comp">
+            Venez découvrir la fameuse cuisine des Hobbits ! Dont les saveurs multiples sauront ravir petits et grands !
+          </p>
+        </div>
+        <div class="carousel-container">
+          <div id="carrousel-restau-1" class="carousel"></div>
+          <div id="dot-restau-1" class="carousel-dots"></div>
+          <button class="prev-slide"><i class="fa-solid fa-arrow-left"></i></button>
+          <button class="next-slide"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <p class="restau-explain nocomp">
+          Venez découvrir la fameuse cuisine des Hobbits ! Dont les saveurs multiples sauront ravir petits et grands !</p>
+      </div>
+
+      <div class="linear-B-A"></div>
+
+      <div class="DivA">
+        <div class="download-cont">
+          <a class="download-pic" href="/front-end/src/MenuRestaurant.pdf" target="_blank"><i class="downloadLogo fa-solid fa-download"></i></a>
+          <div class="restau-infos">
+            <div class="restau-title">Notre Menu</div>
+            <p class="restau-explain">Retrouvez notre menu ici !</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="linear-A-B"></div>
+
+      <div class="DivB">
+        <div class="download-cont">
+          <div class="download-pic" style="border:none"><i class="fa-solid fa-phone"></i></div>
+          <div class="restau-infos">
+            <div class="restau-title">Reservez</div>
+            <p class="restau-explain">Appelez nous au 
+              01 23 45 67</p>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer>
+      <div class="linear-B-A"></div>
+      <div class="DivA">
+        <p>&copy; 2024 - Dream Hotel - LT/FL</p>
+      </div>
+    </footer>
+
+    <script type="module" src="../js/restauration.js"></script>
+    <script type="module" src="../js/script.js"></script>
+  </body>
+</html>

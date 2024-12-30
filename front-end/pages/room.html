@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Content-Language" content="fr">
+    <meta name="Description" content="Bienvenue au Trou du Hobbit la où votre voyage débute">
+    <meta name="Keywords" content="hobbit hôtel seigneur des anneaux">
+    <meta name="Subject" content="Hôtel ">
+    <meta name="Copyright" content="2024 FL LT">
+    <meta name="Author" content="FL LT">
+    <title>Dream Hotel - LT/FL</title>
+    <link href="../css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b8451f0e84.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="fixedHeader">
+        <img class="logo" src="../img/logo-banner.webp" alt="Banner" />
+
+        <ul class="menu">
+          <li><a class="menuItem" href="../../../index.html">Accueil</a></li>
+          <li><a class="menuItem" href="room.html">Chambres</a></li>
+          <li><a class="menuItem" href="restauration.html">Restauration</a></li>
+          <li><a class="menuItem" href="service.html">Services</a></li>
+          <li><a class="menuItem" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <button class="hamburger">
+        <i class="fas fa-bars menuIcon"></i>
+        <i class="fa-solid fa-xmark closeIcon" id="closeIcon"></i>
+      </button>
+
+      <img class="logo-header"  src="../img/logo-full.webp" 
+      srcset="../img/logo-full-small.webp 480w, ../img/logo-full-medium.webp 768w, ../img/logo-full.webp 1280w" 
+      sizes="(max-width: 768px) 100vw, (min-width: 769px) 50vw" 
+      alt="logo-header"/>
+      <h1 class="title">Chambres</h1>
+      <p class="title-quote">“Un peu de sommeil vous remet de bien des choses.”</p>
+    </header>
+
+    <main>
+      <div class="linear-B-A"></div>
+      <div id="list-chambers"></div>
+    </main>
+
+    <footer>
+      <div id="footer-room"></div>
+    </footer>
+
+    <script type="module" src="../js/room.js"></script>
+    <script type="module" src="../js/script.js"></script>
+  </body>
+</html>

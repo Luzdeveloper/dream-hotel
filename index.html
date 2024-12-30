@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Content-Language" content="fr">
+    <meta name="Description" content="Bienvenue au Trou du Hobbit la où votre voyage débute">
+    <meta name="Keywords" content="hobbit hôtel seigneur des anneaux">
+    <meta name="Subject" content="Hôtel ">
+    <meta name="Copyright" content="2024 FL LT">
+    <meta name="Author" content="FL LT">
+    <title>Dream Hotel - LT/FL</title>
+    <link href="front-end/css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b8451f0e84.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+  
+    <header>
+      
+      <div class="fixedHeader">
+        <img class="logo" src="front-end/img/logo-banner.webp" alt="Banner" />
+
+        <ul class="menu">
+          <li><a class="menuItem" href="index.html">Accueil</a></li>
+          <li>
+            <a class="menuItem" href="front-end/pages/room.html">Chambres</a>
+          </li>
+          <li>
+            <a class="menuItem" href="front-end/pages/restauration.html"
+              >Restauration</a
+            >
+          </li>
+          <li>
+            <a class="menuItem" href="front-end/pages/service.html">Services</a>
+          </li>
+          <li>
+            <a class="menuItem" href="front-end/pages/contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <button class="hamburger">
+          <i class="fas fa-bars menuIcon"></i>
+          <i class="fa-solid fa-xmark closeIcon" id="closeIcon"></i>
+        </button>
+      </div>
+      <img class="logo-header"  src="front-end/img/logo-full.webp" 
+      srcset="front-end/img/logo-full-small.webp 480w, front-end/img/logo-full-medium.webp 768w, front-end/img/logo-full.webp 1280w" 
+      sizes="(max-width: 768px) 100vw, (min-width: 769px) 50vw" 
+      alt="logo-header"/>
+      <h1 class="title">Accueil</h1>
+      <p class="title-quote">“C'était un trou de hobbit, ce qui implique le confort.”</p>
+    </header>
+
+    <main>
+
+      <div class="linear-B-A"></div>
+
+      <div class="DivA intro">
+        <img class="pic-Bienvenue comp" src="front-end/img/bienvenue.webp" alt="Bienvenue"/>
+        <div>
+          <div class="index-title">Bienvenue au Trou du Hobbit</div>
+          <img class="pic-Bienvenue nocomp" src="front-end/img/bienvenue.webp" alt="Bienvenue"/>
+          <p class="index-text">
+            <span>Chers voyageurs,</span>
+
+            Nous sommes ravis de vous accueillir dans notre petit coin de la Comté, où le confort et la magie se rencontrent.
+
+            Ici, vous pourrez vous détendre dans des chambres douillettes inspirées des maisons hobbits, entourées de verdure et de tranquillité. Que vous soyez ici pour une aventure épique ou simplement pour échapper à l'agitation du monde extérieur, nous espérons que votre séjour sera aussi enchanteur que les histoires de la Terre du Milieu.
+
+            N'hésitez pas à explorer nos jardins, à déguster un repas chaleureux dans notre salle à manger, ou à vous détendre avec un bon livre près de la cheminée. Notre équipe est à votre disposition pour rendre votre séjour inoubliable. Bienvenue chez vous, et que votre aventure commence ! Avec nos salutations les plus chaleureuses.
+          
+            <span>L'équipe du Trou du Hobbit</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="linear-A-B"></div>
+
+      <div class="DivB intro">
+        <div class="index-infos">
+          <div class="index-title">Nos Chambres</div>
+          <p class="index-explain">
+            Confort, Calme et un peu de fantaisie : Voici ce qui vous attend parmis notre selection de chambes !
+          </p>
+          <button class="btn btnB index-btn comp"><a href="/front-end/pages/room.html">Découvrir</a></button>
+        </div>
+        <div class="carousel-container">
+          <div id="carrousel-chamber-1" class="carousel"></div>
+          <div id="dot-chamber-1" class="carousel-dots"></div>
+          <button class="prev-slide"><i class="fa-solid fa-arrow-left"></i></button>
+          <button class="next-slide"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <button class="btn btnB index-btn nocomp"><a href="/front-end/pages/room.html">Découvrir</a></button>
+      </div>
+
+      <div class="linear-B-A"></div>
+
+      <div class="DivA intro-rev">
+        <div class="index-infos">
+          <div class="index-title">Notre Restaurant</div>
+          <p class="index-explain">
+            Venez donc vous régaler parmis un large choix de plats de la si populaire et appréciée cuisine Hobbit !
+          </p>
+          <button class="btn btnA index-btn comp"><a href="/front-end/pages/restauration.html">Découvrir</a></button>
+        </div>
+        <div class="carousel-container">
+          <div id="carrousel-restau-1" class="carousel"></div>
+          <div id="dot-restau-1" class="carousel-dots"></div>
+          <button class="prev-slide"><i class="fa-solid fa-arrow-left"></i></button>
+          <button class="next-slide"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <button class="btn btnA index-btn nocomp"><a href="/front-end/pages/restauration.html">Découvrir</a></button>
+      </div>
+
+      <div class="linear-A-B"></div>
+      <div class="DivB">
+        <div class="index-title">Nos Services</div>
+        <p class="index-explain">
+          Nos équipes s'assureront de vos offrir les meilleurs services durant votre séjour !
+        </p>
+        <div id="list-services" class="index-service"></div>
+
+        <button class="btn btnB index-btn"><a href="/front-end/pages/service.html">Découvrir</a></button>
+      </div>
+      
+
+    </main>
+
+    <footer>
+      <div class="linear-B-A"></div>
+      <div class="DivA">
+        <p>&copy; 2024 - Dream Hotel - LT/FL</p>
+    </div>
+    </footer>
+
+    <script type="module" src="front-end/js/script.js"></script>
+    <script type="module" src="front-end/js/index.js"></script>
+  </body>
+</html>
